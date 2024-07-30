@@ -99,6 +99,22 @@ font-size: 30px;
 @media (max-width: 768px) {
   .grid {
       grid-template-columns: 1fr;
-      width: 70%;
+      width: 100%;
+  }
+  .container{
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .grid {
+      grid-template-columns: 1fr;
+      width: auto;
+      
+  }
+  .container{
+    width: 90%;
+    margin-left: 30px;
   }
 }
